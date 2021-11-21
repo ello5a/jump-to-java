@@ -1,4 +1,4 @@
-package j2j;
+package dataType;
 
 public class dataType {
 

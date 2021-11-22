@@ -1,6 +1,6 @@
 package oop;
 
-import java.util.Iterator;
+import java.util.*;
 
 public class animal {
 	/*클래스 특성상 public static void main 메서드부터 시작..한다(순서가 꼬여있다는 뜻)

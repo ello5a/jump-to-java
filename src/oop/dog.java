@@ -8,9 +8,13 @@ public class dog extends animal {
 	 * dog 클래스에 name이라는 객체변수와 setName 이라는 메서드를 만들지 않았지만 animal클래스를 상속을 받았기 때문에
 	 * 그대로 사용이 가능하다. dog클래스에 다음과 같은 main메서드를 구현하고 실행시켜보자
 	 */
+	public dog() {
+		
+	}
 	public void sleep() {
 		System.out.println(this.name+" zzz");
 	}
+
 	public static void main(String[] args) {
 		dog Dog = new dog();
 		Dog.setName("tang");
